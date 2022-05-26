@@ -1,5 +1,5 @@
 /*
-This class implements the Stack data structure which follows FIFO which means first-in first-out.
+This class implements the Queue data structure which follows FIFO which means first-in first-out.
 This is implemented with the function enqueue which inserts an element into the Queue at the first
 empty location and the function dequeue which removes the first element enqueued. 
 */
@@ -30,7 +30,7 @@ export default class Queue {
       return this.#pointer;
     }
   
-    // Returns the stack data field of the Queue class
+    // Returns the queue data field of the Queue class
     getQueue() {
       return this.#queue;
     }
@@ -79,7 +79,7 @@ export default class Queue {
       return data;
     }
   
-    // Returns the last element enqueued into the Stack
+    // Returns the last element enqueued into the Queue
     peek() {
       // Check first if the Queue is empty
       if (this.isEmpty()) {
