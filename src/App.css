@@ -9,7 +9,8 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-color: pink;
+  background-color: #393D3F;
+  color: #9cc4b2;
 }
 
 .App {
@@ -78,7 +79,7 @@ body {
   height: 100%;
   width: 80%;
   border-style: solid;
-  border-color: black;
+  border-color: #d5bbb1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +89,7 @@ body {
   width: calc(100%/5);
   height: 100%;
   border-style: solid;
-  border-color: black;
+  border-color: #d5bbb1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,12 +117,12 @@ body {
 }
 
 .App .queue-functions-container button {
-  padding: 2em;
-  background-color: #75B9BE;
+  padding: 1.5em;
+  background-color: #d5bbb1;
   border-style: none;
   border-radius: .5em;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: .75rem;
 }
 
 .App .queue-functions-container button:hover {
