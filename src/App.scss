@@ -10,7 +10,8 @@ body
 {
     height: 100vh;
     width: 100vw;
-    background-color: pink;
+    background-color: #011627;
+    color: #FDFFFC;
 }
 .App
 {
@@ -53,18 +54,20 @@ body
           height: 100%;
           width: 80%;
           border-style: solid;
-          border-color: black;
+          border-color: #FDFFFC;
           display: flex;
           .queue-box
           {
               width: calc(100%/5);
               height: 100%;
               border-style: solid;
-              border-color: black;
+              border-color: #FDFFFC;
               display: flex;
-              justify-content: center;
               align-items: center;
               font-size: 2rem;
+              text-overflow: ellipsis;
+              overflow-x: scroll;
+            
           }
       }
   }
@@ -77,12 +80,12 @@ body
       align-items: center;
       button
       {
-          padding: 2em;
-          background-color: #75B9BE;
+          padding: 1.5em;
+          background-color: #2EC4B6;
           border-style: none;
           border-radius: .5em;
           font-weight: 600;
-          font-size: 1rem;
+          font-size: .75rem;
       }
       button:hover
       {

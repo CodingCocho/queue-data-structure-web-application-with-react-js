@@ -56,7 +56,7 @@ function App() {
 
         <div className='heading-elements'>
           <p id='title'>Data Structure Demonstration</p>
-          <span id='data-structure-name'>Queue</span>
+          <span id='data-structure-name'>Queue for Strings</span>
         </div>
 
         <div className='queue-container'>
